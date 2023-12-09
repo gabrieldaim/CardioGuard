@@ -1,0 +1,19 @@
+.vazio{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vazio > img {
+    width: 900px;
+}
+
+.vazio > p {
+    color: #cc4984;
+    font-weight: bold;
+    font-size: 24px;
+    width: 100%;
+}

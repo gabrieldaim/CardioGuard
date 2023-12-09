@@ -1,0 +1,76 @@
+/* custom-confirm-alert.css */
+
+.react-confirm-alert-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Adicionado para garantir que o overflow seja tratado corretamente */
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .react-confirm-alert-body {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px; /* ou o valor desejado */
+
+    box-sizing: border-box; /* Garante que o padding não aumenta a largura do modal */
+    overflow: hidden; /* Adicionado para garantir que o overflow seja tratado corretamente */
+  }
+  
+  /* Adicione estas regras para centralizar o conteúdo dentro do modal */
+  .react-confirm-alert-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .react-confirm-alert-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .react-confirm-alert-message {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .react-confirm-alert-button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  .react-confirm-alert-button {
+    background-color: #007bff;
+    color: black;
+    border: solid;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  
+  .react-confirm-alert-body > h1{
+    color: black;
+    font-size: 24px;
+    width: 100%;
+  }
+
+  .react-confirm-alert-button-group > button{
+    width: 100px;
+
+  }
+

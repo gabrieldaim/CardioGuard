@@ -1,0 +1,75 @@
+form{
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    padding:20px 0 20px 0;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    box-shadow: 0 0 15px rgb(61, 61, 61,0.7);
+}
+
+.title-form{
+    color: black;
+}
+
+.campo{
+    padding-left: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', 'Helvetica Neue',sans-serif;
+    width: 75%;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+ label{
+    font-weight: medium;
+ }
+
+ input{
+    border: solid 2px #c95489;
+    outline: none;
+    box-shadow: none;
+    border-radius: 10px;
+    height: 25px;
+    padding: 0 10px;
+    font-weight: medium;
+    font-size: 16px;
+ }
+
+ button {
+    width: 300px;
+    background-color: #c95489;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efeito de transição no hover */
+    
+}
+
+button:hover {
+    background-color: #a63c6e; /* Cor alterada no hover */
+}
+
+p{
+    font-family: "Poppins", "Helvetica Neue",sans-serif;
+    text-align: center;
+    width: 400px;
+    margin-top: 10px;
+    color: white;
+    font-weight: lighter;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+}
+
+.login-form{
+    height: 300px;
+}

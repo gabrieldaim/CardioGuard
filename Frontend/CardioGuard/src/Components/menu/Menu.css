@@ -1,0 +1,37 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cc4984;
+    height: 60px;
+}
+
+.left-buttons{
+    display: flex;
+    gap: 0px
+}
+
+.rigth-buttons{
+    display: flex;
+    align-items: center;
+}
+
+.button-menu{
+    background-color: transparent;
+    width: 140px;
+    height: 60px;
+    font-size: 16px;
+}
+
+.divider {
+    width: 2px;
+    height: 60px;
+    background-color: white;
+    
+}
+
+.nome{
+    width: 100px;
+    margin: 0;
+    text-align: center;
+}
